@@ -5,59 +5,10 @@
             body{
              background-color: rgb(16, 196, 0);
             }
-            main-background{
-            background-color: #fff;
-            width: 100%;
-            height: 900%;
-            position: absolute;
-            top: 400px;
-            left: 0px;
-            }
-            tien-tich{ 
-            box-shadow: 1px 20px 55px #b9b9b9;
-            
-            background-color: #fff;
-          
-            width: 82%;
-            height: 800px;
-            border-radius: 45px;
-            position: absolute;
-            left: 80px;
-            top: 300px;
-            }
-            .thong-bao{
-             width: 80px;
-            }
-            thong-bao{
-             position: absolute;
-             left: 841px;
-             top: 70px;
-            }
-            avatar{
-            position: absolute;
-            left: 71px;
-            top: 70px;
-            }
-            .avatar{
-            border: 7px solid #009711;
-            border-radius: 50%;
-            box-shadow: 0.375em 0.375em 0 0 rgb(15 28 63 / 13%);
-            height: 80px;
-            width: 80px;
-            }
-            .name{
-       
-       position: absolute;
-           left: 180px;
-           top: 26px;
-           color: #fff;
-           font-size: 40px;
-           font-family: sans-serif;
-          
-      }
+
 @media (min-width:320px)  { 
     .thong-bao{
-             width: 150px;
+             width: 120px;
             }
             thong-bao{
              position: absolute;
@@ -67,6 +18,24 @@
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 }
 @media (min-width:480px)  { 
+  tien-tich{ 
+            box-shadow: 1px 20px 55px #b9b9b9;   
+            background-color: #fff;     
+            width: 82%;
+            height: 800px;
+            border-radius: 45px;
+            position: absolute;
+            left: 90px;
+            top: 300px;
+            }
+  main-background{
+            background-color: #f5f5f5;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 400px;
+            left: 0px;
+          }
     .verify{
     position: absolute;
     left: 159px;
@@ -94,9 +63,14 @@
     top: 2px;
     color: #fff;
     font-size: 60px;
-      font-family: sans-serif;
+    font-family: sans-serif;
        
    }
+   avatar{
+    position: absolute;
+    left: 73px;
+    top: 60px;
+            }
     .avatar{
     border: 7px solid #009711;
     border-radius: 50%;
@@ -105,12 +79,22 @@
     width: 130px;
 }
     .thong-bao{
-             width: 150px;
+      width: 120px;
             }
             thong-bao{
              position: absolute;
              left: 750px;
              top: 70px;
+            }
+            .them{
+              background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0em 0em 20px 11px rgb(0 0 0 / 13%);
+    width: 130px;
+    position: absolute;
+    left: 338px;
+    top: 740px;
+
             }
     @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -137,122 +121,88 @@
              left: 750px;
              top: 70px;
             }
-    
+            .quang-cao{
+        box-shadow: 1px 20px 55px 20px #b9b9b9;
+    background-color: #fff;
+    width: 82%;
+    height: 503px;
+    border-radius: 45px;
+    position: absolute;
+    left: 100px;
+    top: 1300px;
+
+      }
     
     /* smartphones, Android phones, landscape iPhone */ }
 
-
-
+ 
 
 @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) {
-   
-   .level{
-    position: absolute;
-        left: 260px;
-        top: 130px;
-        color: #fff;
-        font-size: 25px;
-        font-family: serif;
-
-   }
-   
-    .name{
-       
-    position: absolute;
-        left: 250px;
-        top: 26px;
-        color: #fff;
-        font-size: 40px;
-        font-family: sans-serif;
-       
-   }
-   
-    .verify{
-    position: absolute;
-    left: 207px;
-    top: 130px;
-    width: 35px;
-    border: 2px solid #009711;
-    border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgb(15 28 63 / 13%);
-
-}
-    avatar{
-            position: absolute;
-            left: 151px;
-            top: 70px;
-            }
-            .avatar{
-            border: 7px solid #009711;
-            border-radius: 50%;
-            box-shadow: 0.375em 0.375em 0 0 rgb(15 28 63 / 13%);
-            height: 80px;
-            width: 80px;
-            }
-
-
-    
-    tien-tich{ 
-            box-shadow: 1px 20px 55px #b9b9b9;
-            
-            background-color: #fff;
-          
-            width: 82%;
-            height: 800px;
-            border-radius: 45px;
-            position: absolute;
-            left: 130px;
-            top: 300px;
-            }
-            .thong-bao{
-             width: 80px;
-            }
-          
-
-            @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-            .thong-bao:hover{
-             width: 80px;
-             animation: shake 0.5s; 
-  /* When the animation is finished, start again */
-              animation-iteration-count: infinite; 
-            }
-            thong-bao{
-             position: absolute;
-             left: 1091px;
-             top: 70px;
-            }
-/* hi-res laptops and desktops */ }
+         @media (min-width:1281px) {
+          mobile{
+            opacity: 0;
+           }
+         
+      
+      
+      }
 
 
                 </style>
     </head>
     <body>
-       
-        <main-background></main-background>
-        <tien-tich></tien-tich>
-        <thong-bao><img class="thong-bao"src="assets/thong-bao.png"></thong-bao>
+
+ 
+
+
+
+      <pc>
+      
+
+<img src="/assets/bao-tri.png" alt=""  style=" position: absolute;
+    left: 550PX;
+    top: 70px;
+    filter: grayscale(100%);"> 
+<h1 style="    position: absolute;
+    left: 400PX;
+    top: 240px;
+    color: #fff;
+    font-size: 90px;
+    font-family: sans-serif;">Đang Bảo trì ...</h1>
+
+      </pc>
+
+      <mobile>
+      <main-background></main-background>
+        <thong-bao><img class="thong-bao"src="/assets/thong-bao.png"></thong-bao>
         <avatar>
         <img class="avatar"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXGxsb////JycnDw8Pv7+/8/Pza2trNzc3g4ODy8vLm5ub4+PjV1dXj4+Pr6+vp6ekuEkSCAAADOElEQVR4nO3cW3OrIBSGYXSpeIr+/3+7RZumnaSpix2Di75PLzqdyQVfOQgIcQ4AAAAAAAAAAAAAAAAAAAAAAAA4Tpm6AEeTq9QFOYRIOTZtX1XTpR29yy2kiG+7urgZpjGnkOKarrhTzz6XjNIMa6L7kFMWGcU/qL/PerxsnzE7xi41JO2DuvuiM1+N89N8oRpHyxHFPWmhnxqrEUPf2hPQbkRxUu0KaDZiKfPDR8QjPnVho0izswYXQ+rCRil31t9qNthOZVIELIoxdXn1RlXAYjBXibvHUauVKF4ZsOiMVaKyFwbWJqiagXTT20qoHGcCW2ON9PqEhalFogwRCZvUpVbRd0NjHdHHJKwsJYwYaIwNNYplxU1tKKFm4UTCc/oDCbMfafQri8DU0yL/J37crM1Uwuxn3jGTGktD6UL0CS/GEv76zumOtV0Mv3dD/8raTlT+u4nqaU2XusB62l19a43UKdf5k8GAqgVGbfP40P52WpsbZlay9zW+sRnpTZhm7puAtzYDbvZENB3QuV8f/LXRJroJDbV9Em75GcIxDMsZF/5ZS+1Tl+4lpB3uD9asf1fW1hM/EdcM9/nqPE6XfhDxl28Px7pqSsns6L5I6Zt+mqpp7jM8yf5BxOV7GeGvyKvjAQCAh+Tbr8zI7YpsHlPTLwnWPH5s+7nq6mAYumoOV2VNJ90moEuAcmynH7dN625ufOk+c9qatoabzW21YzdxjemM1ebS+pZ0u97M1Nunhn5Z85sJKW6cYs7TdK3fQp64sa5dKi7eZriGPKuw4RRzVmiz/WO6sEV1UiKPrt1HJO23bcazBb3fFP0PYav4bFfY5YX5rhnPRMbX5itCWz1RM5Xfb91HZRzPMq4eUIEfpnMMq3I5KN9iOENvjLhpqJD6OyVCI9KeX9MKEVM+N6TSnkFUqhMfRYk67azNmPQLF6LuVWil/MIF1dcmxEt3TeHI58Q3ydrpm6qwTlaJcfe3YhKm6onqo9zxUp3OPGo6ei/R4b43dcMgUUcs3xYw1cW9/BO67BPmX4ckJCEJSUhCEpKQhC+V6hp0+T6nfrkPAAAAAAAAAAAAAAAAAAAAAAAAvNc/BaMjNJZwCScAAAAASUVORK5CYII="></avatar>
         <img class="verify" src="https://keodannhua.com/wp-content/uploads/2018/01/tick-yellow.png">
        
        <p class="name">Vuong Thanh tung</p>
-        <b class="level" style="font-weight: 900;">Thanh Vien Vip</b>
+       <b class="level" style="font-weight: 900;">Thanh Vien Vip</b>
+          <tien-tich>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPEAAADRCAMAAAAquaQNAAAAe1BMVEX/////tAD/sQD/sAD/1Iz/rgD/1o7/0ov/tQD///z//PT/9uP/+u//yWL/+Or/5rn/2pX/znH/8NT/6sP/7cv/x1v/uBX/1on/0nz/8tj/7Mn/vjX/vCr/47H/4av/3qL/04D/57z/wkj/w03/zWz/w0z/wD7/uiT/xlfaorL1AAAEeElEQVR4nO3ci1oaMRCGYSYxFPAEHlDUWmytev9X2NqqD+AeMptkZoL/dwE7vF3Xp7hJRiOEEEIIIYQQQgghhBBCCCGEEEIIIYQQQsh88yPtT7DbvPD1DybGyPNQeMA4LE8Kj2A1D67whLFzlsjjQOXF5CZmyFeBJMREVsivYBmxEfL6FSwkpslh4TkRXf8DS4kNkK89iYrVye9gOTGRKnnxDpYUa5IfP8CiYrcqPKy1DbCoWI187ElJTHRWeFxjW2BpsQZ5G1xcfLAjduLkS0+qYvLC5JfdDyAuJn9ReORWvz7NlxeTvyk8c6PPYA0xufPCQ9+bNoBVxFLk6e/G4YWnNorJS5CnPxtn64gpCJCfmkcricuTp7ctk7XEFE6Lzp21gfXE5EuS28FEBce+1i4m/73Y1C6w3j0uSJ7ddUzVFJd6lmfPXUNVxRRK3OXZsnOmrpjCffaJR91gbXF+8kkPWF1M/kfWeb1gfTGFnOR+sAFxTvLJpHeaBXE+8kn/LBtiCnlWoxzGgG2I85API36kzYgpjJMnreLAVsTp5FXcHDtiCldJc1axc+yI08jxYENiCuvBU87ip1gSDydfMIaYEpO/HjSDBbYlHkbmgY2JyS/YEy58/2UNiylwyTeBN8CcmPwj6/rnXLA9MY/8wPyRFhB/Y4s55Af+1S2KyR9HXvyUf4dtimPJp+xn2KyY/GUxsFFxDPn7MLBVcT/5fiDYrJhcN/l+yC8t22JyLx2X/TH0DlsWk/tdAmxZTO5nAXBxMfebzQ552nTNeQqY+f/2Ad0k3ORmchqY/3WUHfMLey/ZPDiV/LRDHieBh/1Zid1Z0rN8u0W+SgEHIfBotEoi322Q13WAWX9AbyLP8oDXcmDGW6FG8u2sOnAq+f9dvk55OBLfa6mQKwOPRodJz/LzdJEETn8/PYSc8In/mlP+wTItu+CTI9/iZ08LrEbOumKMS15+MbDKXdYFx62qywvOv7qX2dEk5ZcuH1xua0I8uX+x6H6B/5I7F/VnreDmE1ZiZCtgMXLRHVXMejZv5Ck8aDM3EyBLbAbl1LkJK0ciG35ZdW20y5DYPnZGRckWwUXJTvBwBk6tm6JTkz2Ag1UZsvQhK6xa9vonJX+QDqeW8xySMg1uOaRkn8H5yWrnvDHKSq4BnJWsfipnZC8prxtqBH8+J21Y2oeQsjpOJ7tlTeAc5MrAyWRDx4JHl0R21g74j+pxONktawRvnj/MBT/XCR5Mrhc8kLyx+qnCFvz1S+65ZvDH8ficO9y4IrmimOT6waPRmvMs76xTrbSreLJ7qvsZfi96RXHLroIKiyR/Wm1ecVEL5Vu3ylRZBHm/wBH7Pzq3vFVZD3n/wD0b13r2cVZaBzlqR3aFtZKjDxqorpZd1fsLbiGX32upWcNW8v0GN5yPILPXUrMdMvukowrbOvbjK4C3yJJ7LTX7OL7Hr7U/ilRvRzR9HfDbMVwaWw/1Og9fDPx6nJ7KXkvNansfjhBCCCGEEEIIIYQQQgghhBBCCKH6+gNAy0O0d44ZGAAAAABJRU5ErkJggg==" class="them">
+          </tien-tich>
+        <quang-cao class="quang-cao"> </quang-cao>
+        <footer style="    box-shadow: inset 1px 1px 0px 8px #10c400;
+    background-color: #ffffff;
+    width: 82%;
+    height: 100px;
+    border-radius: 45px;
+    position: absolute;
+    left: 100px;
+    top: 2000px;"></footer>
+        </mobile>
+
+
+
+
+
+
     </body>
-    <audio src="https://drive.google.com/file/d/16MivFAVEBImB45Ogf723VKriXmhvkDvC/view" autoplay></audio>
+    <audio src="music.mp3" autoplay></audio>
+
 </html>
